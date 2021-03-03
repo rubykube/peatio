@@ -7,7 +7,7 @@ git_source(:github) { |repo_slug| "https://github.com/#{repo_slug}" }
 ruby '~> 2.6'
 
 gem 'ransack', '~> 2.3.2'
-gem 'rails', '~> 5.2.4'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 gem 'puma', '~> 3.12.2'
 gem 'mysql2', '~> 0.5.2'
 gem 'redis', '~> 4.1.2', require: ['redis', 'redis/connection/hiredis']
@@ -68,18 +68,18 @@ group :development, :test do
 end
 
 group :development do
-  gem 'annotate',   '~> 3.1.0'
+  gem 'annotate', '~> 3.1.1'
   gem 'ruby-prof',  '~> 0.17.0', require: false
   gem 'listen',     '>= 3.0.5', '< 3.2'
 end
 
 group :test do
-  gem 'rspec-rails', '~> 3.8', '>= 3.8.2'
+  gem 'rspec-rails', '~> 3.9', '>= 3.9.0'
   gem 'rspec-retry',         '~> 0.6'
   gem 'webmock',             '~> 3.5'
   gem 'database_cleaner',    '~> 1.7'
   gem 'mocha',               '~> 1.8', require: false
-  gem 'factory_bot_rails', '~> 5.0', '>= 5.0.2'
+  gem 'factory_bot_rails', '~> 5.2', '>= 5.2.0'
   gem 'timecop',             '~> 0.9'
   gem 'rubocop-rspec',       '~> 1.32', require: false
 end
