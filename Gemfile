@@ -30,7 +30,7 @@ gem 'rack-attack', '~> 5.4.2'
 gem 'faraday', '~> 0.17'
 gem 'better-faraday', '~> 1.0.5'
 gem 'faraday_middleware', '~> 0.13.1'
-gem 'faye', '~> 1.4'
+gem 'faye', '~> 1.4', '>= 1.4.0'
 gem 'eventmachine', '~> 1.2'
 gem 'em-synchrony', '~> 1.0'
 gem 'jwt', '~> 2.1.0'
@@ -76,7 +76,7 @@ end
 group :test do
   gem 'rspec-rails', '~> 3.8', '>= 3.8.2'
   gem 'rspec-retry',         '~> 0.6'
-  gem 'webmock',             '~> 3.5'
+  gem 'webmock', '~> 3.8', '>= 3.8.3'
   gem 'database_cleaner',    '~> 1.7'
   gem 'mocha',               '~> 1.8', require: false
   gem 'factory_bot_rails', '~> 5.0', '>= 5.0.2'
