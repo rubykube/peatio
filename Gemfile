@@ -42,15 +42,15 @@ gem 'sentry-raven', '~> 2.9.0', require: false
 gem 'memoist', '~> 0.16.0'
 gem 'method-not-implemented', '~> 1.0.1'
 gem 'validates_lengths_from_database', '~> 0.7.0'
-gem 'jwt-multisig', '~> 1.0.0'
+gem 'jwt-multisig', '~> 1.0.2'
 gem 'cash-addr', '~> 0.2.0', require: 'cash_addr'
 gem 'digest-sha3', '~> 1.1.0'
 gem 'scout_apm', '~> 2.4', require: false
-gem 'peatio', '~> 2.6.2'
+gem 'peatio', '~> 3.1.0'
 gem 'irix', '~> 2.6.0'
 gem 'rack-cors', '~> 1.0.6', require: false
-gem 'jwt-rack', '~> 0.1.0', require: false
-gem 'env-tweaks', '~> 1.0.0'
+gem 'jwt-rack', '~> 0.1.1', require: false
+gem 'env-tweaks', '~> 1.0.1'
 gem 'vault', '~> 0.12', require: false
 gem 'vault-rails', git: 'http://github.com/rubykube/vault-rails'
 gem 'bootsnap', '>= 1.1.0', require: false
