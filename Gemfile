@@ -7,7 +7,7 @@ git_source(:github) { |repo_slug| "https://github.com/#{repo_slug}" }
 ruby '~> 2.6'
 
 gem 'ransack', '~> 2.3.2'
-gem 'rails', '~> 5.2.4'
+gem 'rails', '~> 7.0.0'
 gem 'puma', '~> 3.12.2'
 gem 'mysql2', '~> 0.5.2'
 gem 'redis', '~> 4.1.2', require: ['redis', 'redis/connection/hiredis']
@@ -20,7 +20,7 @@ gem 'cancancan', '~> 3.1.0'
 gem 'enumerize', '~> 2.2.2'
 gem 'kaminari', '~> 1.2.1'
 gem 'rbtree', '~> 0.4.2'
-gem 'grape', '~> 1.3.1'
+gem 'grape', '~> 2.1.0'
 gem 'grape-entity', '~> 0.7.1'
 gem 'grape-swagger', '~> 0.30.1'
 gem 'grape-swagger-ui', '~> 2.2.8'
@@ -48,7 +48,7 @@ gem 'digest-sha3', '~> 1.1.0'
 gem 'scout_apm', '~> 2.4', require: false
 gem 'peatio', '~> 2.6.2'
 gem 'irix', '~> 2.6.0'
-gem 'rack-cors', '~> 1.0.6', require: false
+gem 'rack-cors', '~> 3.0.0', require: false
 gem 'jwt-rack', '~> 0.1.0', require: false
 gem 'env-tweaks', '~> 1.0.0'
 gem 'vault', '~> 0.12', require: false
