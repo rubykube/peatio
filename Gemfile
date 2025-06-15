@@ -79,7 +79,7 @@ group :test do
   gem 'webmock',             '~> 3.5'
   gem 'database_cleaner',    '~> 1.7'
   gem 'mocha',               '~> 1.8', require: false
-  gem 'factory_bot_rails', '~> 5.0', '>= 5.0.2'
+  gem 'factory_bot_rails', '~> 6.5', '>= 6.5.0'
   gem 'timecop',             '~> 0.9'
   gem 'rubocop-rspec',       '~> 1.32', require: false
 end
