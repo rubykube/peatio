@@ -6,8 +6,8 @@ git_source(:github) { |repo_slug| "https://github.com/#{repo_slug}" }
 
 ruby '~> 2.6'
 
-gem 'ransack', '~> 2.3.2'
-gem 'rails', '~> 5.2.4'
+gem 'ransack', '~> 2.4.0'
+gem 'rails', '~> 7.1.5', '>= 7.1.5.2'
 gem 'puma', '~> 3.12.2'
 gem 'mysql2', '~> 0.5.2'
 gem 'redis', '~> 4.1.2', require: ['redis', 'redis/connection/hiredis']
@@ -18,7 +18,7 @@ gem 'aasm', '~> 5.0.8'
 gem 'bunny', '~> 2.14.1'
 gem 'cancancan', '~> 3.1.0'
 gem 'enumerize', '~> 2.2.2'
-gem 'kaminari', '~> 1.2.1'
+gem 'kaminari', '~> 1.2.2'
 gem 'rbtree', '~> 0.4.2'
 gem 'grape', '~> 1.3.1'
 gem 'grape-entity', '~> 0.7.1'
@@ -41,7 +41,7 @@ gem 'arel-is-blank', '~> 1.0.0'
 gem 'sentry-raven', '~> 2.9.0', require: false
 gem 'memoist', '~> 0.16.0'
 gem 'method-not-implemented', '~> 1.0.1'
-gem 'validates_lengths_from_database', '~> 0.7.0'
+gem 'validates_lengths_from_database', '~> 0.8.0'
 gem 'jwt-multisig', '~> 1.0.0'
 gem 'cash-addr', '~> 0.2.0', require: 'cash_addr'
 gem 'digest-sha3', '~> 1.1.0'
@@ -68,7 +68,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'annotate',   '~> 3.1.0'
+  gem 'annotate', '~> 3.2.0'
   gem 'ruby-prof',  '~> 0.17.0', require: false
   gem 'listen',     '>= 3.0.5', '< 3.2'
 end
