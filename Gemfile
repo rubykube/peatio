@@ -27,8 +27,8 @@ gem 'grape-swagger-ui', '~> 2.2.8'
 gem 'grape-swagger-entity', '~> 0.2.5'
 gem 'grape_logging', '~> 1.8.0'
 gem 'rack-attack', '~> 5.4.2'
-gem 'faraday', '~> 0.17'
-gem 'better-faraday', '~> 1.0.5'
+gem 'faraday', '~> 2.14', '>= 2.14.1'
+gem 'better-faraday', '~> 2.0.0'
 gem 'faraday_middleware', '~> 0.13.1'
 gem 'faye', '~> 1.4'
 gem 'eventmachine', '~> 1.2'
@@ -38,7 +38,7 @@ gem 'email_validator', '~> 1.6.0'
 gem 'validate_url', '~> 1.0.4'
 gem 'god', '~> 0.13.7', require: false
 gem 'arel-is-blank', '~> 1.0.0'
-gem 'sentry-raven', '~> 2.9.0', require: false
+gem 'sentry-raven', '~> 3.0.0', require: false
 gem 'memoist', '~> 0.16.0'
 gem 'method-not-implemented', '~> 1.0.1'
 gem 'validates_lengths_from_database', '~> 0.7.0'
@@ -46,7 +46,7 @@ gem 'jwt-multisig', '~> 1.0.0'
 gem 'cash-addr', '~> 0.2.0', require: 'cash_addr'
 gem 'digest-sha3', '~> 1.1.0'
 gem 'scout_apm', '~> 2.4', require: false
-gem 'peatio', '~> 2.6.2'
+gem 'peatio', '~> 3.1.1'
 gem 'irix', '~> 2.6.0'
 gem 'rack-cors', '~> 1.0.6', require: false
 gem 'jwt-rack', '~> 0.1.0', require: false
